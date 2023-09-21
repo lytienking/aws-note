@@ -10,6 +10,11 @@
 81: decoupled = SQS, Launch template = AMI, Launch configuration = EC2
 94: SQS + lambda + Json to DynamoDB
 
+
+133: underlying => RDS Custom
+137: Use a group email address for the management account's root user
+139: S3 không thể gửi notify đến SagaMaker
+140: EC2 instance Savings Plans are not applied to Fargate or Lambda
 306: cluster high network throughput
 308: Use the Trusted Advisor recommendations from the consolidated billing account + Review the Trusted Advisor check for Amazon RDS Idle DB Instances.
 309: S3 Storage Lens is a fully managed S3 storage analytics solution that provides a comprehensive view of object storage usage, activity trends, and recommendations to optimize costs
