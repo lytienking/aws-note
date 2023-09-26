@@ -41,6 +41,12 @@
 157:
 168: Service control policies (SCPs) are one type of policy that you can use to manage your organization
 170: WAF also Size constraints, geo-match (block countries)
+172: With Amazon CloudFront, you can enforce secure end-to-end connections to origin servers by using HTTPS. Field-level encryption adds an additional layer of security that lets you protect specific data throughout system processing so that only certain applications can see it.
+174: auto scaling groups can not span multi region
+178: Using AWS Backup is a simple and efficient way to backup EC2 instances and RDS databases to a separate 
+region
+179:
+180: AWS WAF deploy on Application Load Balancer, API Gateway, CloudFront, AppSync GraphQL API, Cognito User Pool
 181:
 184:
 185: To ensure that an Amazon Elastic Container Service (ECS) application has permission to access Amazon Simple Storage Service (S3), the correct solution is to create an AWS Identity and Access Management (IAM) role with the necessary S3 permissions and specify that role as the taskRoleArn in the task definition for the ECS application
@@ -77,7 +83,7 @@
 387:
 388: Security group defaults block all inbound traffic..Add an inbound rule to the security group of the database tier’s RDS instance to allow traffic from the web tiers security group
 395: Amazon Inspector evaluate only for EC2 instances, Container Images & Lambda functions
-396: AWS Shield Advanced provides additional protections against more sophisticated and larger attacks for your applications running on Amazon Elastic Compute Cloud (EC2), Elastic Load Balancing (ELB), Amazon CloudFront, AWS Global Accelerator, and Route 53.
+396: AWS Shield Advanced provides additional protections against more sophisticated and larger attacks for your applications running on Amazon Elastic Compute Cloud (EC2),Network Load Balancing(NLB), Elastic Load Balancing (ELB), Amazon CloudFront, AWS Global Accelerator, and Route 53.
 399: AWS WAF HTTP headers, HTTP body, or URI strings Protects from common attack - SQL injection and Cross-Site Scripting (XSS)
 
 402:
@@ -90,3 +96,12 @@
 418:
 419:
 422:
+451:
+452:AWS Lambda automatically scales resources to handle the workload, so you don't have to worry about managing the underlying infrastructure
+454: AWS Workload Discovery - create diagram, map and visualise AWS resources across AWS accounts and Regions
+455: 
+459: User-defined cost allocation tags
+460: Amazon AppFlow is a fully managed integration service that allows you to securely transfer data between different SaaS applications and AWS services. It provides built-in encryption options and supports encryption in transit using SSL/TLS protocols. With AppFlow, you can configure the data transfer flow from Salesforce to Amazon S3, ensuring data encryption at rest by utilizing AWS KMS CMKs.
+465:
+468: Private VPC Link: To enable the REST API in API Gateway to access the backend services hosted in Amazon ECS, you can create a private VPC link
+470: EIGW for IPv6
