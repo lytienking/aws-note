@@ -171,3 +171,7 @@ CreateImage API call (Event Source) -> Event bus -> Rules - > Amazon SNS (Event 
 498: S3 Lifecycle policies allow you to define rules that automatically transition or expire objects based on their age or other criteria
 499: company need to setup a cheaper connection (200 M) but B is incorrect because you can only order port speeds of 1, 10, or 100 Gbps for more flexibility you can go with hosted connection, You can order port speeds between 50 Mbps and 10 Gbps.
 500:
+502: Managed NFS (network file system) that can be mounted on many EC2
+503: monitor data in customer AWS accounts -> IAM role
+506: 
+507: Amazon DynamoDB global tables is a fully managed, serverless, multi-Region, and multi-active database. Global tables provide you 99.999% availability, increased application resiliency, and improved business continuity. As global tables replicate your Amazon DynamoDB tables automatically across your choice of AWS Regions, you can achieve fast, local read and write performance.
